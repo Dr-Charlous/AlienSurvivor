@@ -71,6 +71,4 @@ public class GameUIManager : MonoBehaviour
         int minutes = timer / 60;
         _textTimer.text = $"{minutes:00}:{seconds:00}";
     }
-
-
 }

@@ -22,7 +22,4 @@ public class CollectableXp : MonoBehaviour
             GameObject.Destroy(gameObject);
         }
     }
-    
-    
-    
 }

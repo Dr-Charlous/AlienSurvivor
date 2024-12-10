@@ -22,5 +22,4 @@ namespace UnityCommon.Graphics.Actors
         [HideInInspector]
         public float CurrentTimer;
     }
-
 }

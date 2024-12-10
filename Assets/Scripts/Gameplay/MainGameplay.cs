@@ -10,9 +10,7 @@ using UnityEngine.SceneManagement;
 public class MainGameplay : MonoBehaviour
 {
     #region Singleton
-
     public static MainGameplay Instance;
-
     #endregion
 
     /// <summary>
@@ -25,35 +23,28 @@ public class MainGameplay : MonoBehaviour
     }
 
     #region Inspector
-
     [SerializeField] PlayerController _player;
     [SerializeField] GameplayData _data;
     [SerializeField] GameUIManager _gameUIManager;
 
     [SerializeField] GameObject _prefabXp;
-
     #endregion
     
     #region Properties
-
     public PlayerController Player => _player;
     public GameObject PrefabXP => _prefabXp;
     public GameState State { get; private set; }
     public List<EnemyController> Enemies => _enemies;
     public GameUIManager GameUIManager => _gameUIManager;
-
     #endregion
 
     #region Fields
-
     readonly List<EnemyController> _enemies = new List<EnemyController>();
     float _timerIncrement;
     int _timerSeconds;
-
     #endregion
 
     #region Initialize
-
     private void Awake()
     {
         if (Instance != null)
@@ -72,13 +63,9 @@ public class MainGameplay : MonoBehaviour
         _player.OnDeath += OnPlayerDeath;
         _player.OnLevelUp += OnLevelUp;
     }
-
-
-
     #endregion
 
     #region Update
-
     void Update()
     {
         UpdateTimer();
@@ -100,11 +87,9 @@ public class MainGameplay : MonoBehaviour
             }
         }
     }
-
     #endregion
 
     #region Game Events
-
     internal void UnPause()
     {
         Time.timeScale = 1;
@@ -154,11 +139,9 @@ public class MainGameplay : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
-
     #endregion
     
     #region Tools
-
     public EnemyController GetClosestEnemy(Vector3 position)
     {
         float bestDistance = float.MaxValue;
@@ -200,6 +183,5 @@ public class MainGameplay : MonoBehaviour
 
         return _enemies[rnd];
     }
-
     #endregion
 }

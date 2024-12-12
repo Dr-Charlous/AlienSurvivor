@@ -28,7 +28,7 @@ MonoBehaviour:
     _movementType: 0
     _spawnDistance: 15
   - _timeToStart: 60
-    _timesToRepeat: 10
+    _timesToRepeat: 120
     _repeatTimer: 4
     _enemyCount: 5
     _enemy: {fileID: 11400000, guid: de7771034e75ff04197edc11a666a0a1, type: 2}

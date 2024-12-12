@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a8eaf7f7549014c8d97c971d54d2b0, type: 3}
   m_Name: WeaponBullet2
   m_EditorClassIdentifier: 
-  _description: Bullet level 2
+  _description: Boost damages
   _sprite: {fileID: 21300000, guid: 82176bcef51ab6b4583f29287edb1455, type: 3}
   _upgrade:
     rid: 0
-  _nextUpgrades: []
+  _nextUpgrades:
+  - {fileID: 11400000, guid: afdbc6df03b81a6409c46de183cbdb3d, type: 2}
   references:
     version: 2
     RefIds:

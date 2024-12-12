@@ -16,4 +16,4 @@ MonoBehaviour:
   _damagePerSeconds: 15
   _moveSpeed: 1
   _prefab: {fileID: 7654918703708801626, guid: bc63bbf30f2977e4d9ed2c16afa08b56, type: 3}
-  _spriteOverride: {fileID: 0}
+  _spriteOverride: {fileID: 1686350763, guid: 97e3836f9164c7e4facc343ed03064c6, type: 3}

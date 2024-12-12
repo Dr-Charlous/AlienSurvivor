@@ -19,18 +19,18 @@ MonoBehaviour:
     _enemyCount: 4
     _enemy: {fileID: 11400000, guid: b9b13ce845eb4f84a920fbe7cf70a373, type: 2}
     _movementType: 0
-    _spawnDistance: 15
+    _spawnDistance: 20
   - _timeToStart: 10
     _timesToRepeat: 30
     _repeatTimer: 60
     _enemyCount: 1
     _enemy: {fileID: 11400000, guid: fdb51e8dc444cc943ac974d7cfa9bab9, type: 2}
     _movementType: 0
-    _spawnDistance: 15
+    _spawnDistance: 20
   - _timeToStart: 60
     _timesToRepeat: 120
     _repeatTimer: 4
     _enemyCount: 5
     _enemy: {fileID: 11400000, guid: de7771034e75ff04197edc11a666a0a1, type: 2}
     _movementType: 0
-    _spawnDistance: 15
+    _spawnDistance: 20

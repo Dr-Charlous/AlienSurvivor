@@ -25,4 +25,4 @@ MonoBehaviour:
         _damageMax: 15
         _coolDown: 0.4
         _prefab: {fileID: 3633932044844237191, guid: 4660ac6ef21504147b176616fca71ee3, type: 3}
-        _speed: 5
+        _speed: 10

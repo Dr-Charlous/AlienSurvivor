@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LifeUpgrade
   m_EditorClassIdentifier: 
   _description: +10% life
-  _sprite: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 7cdc2a2a821a84c4aa568e36ad2d5ff9, type: 3}
   _upgrade:
     rid: 430911006346575872
   _nextUpgrades:

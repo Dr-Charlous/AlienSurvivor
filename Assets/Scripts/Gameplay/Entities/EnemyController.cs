@@ -11,14 +11,18 @@ using UnityEngine;
 /// </summary>
 public class EnemyController : Unit
 {
+    [SerializeField] Transform _visual;
+    Vector2 _scaleOriginVisual;
+
     GameObject _player;
     Rigidbody2D _rb;
     EnemyData _data;
-    private List<PlayerController> _playersInTrigger = new List<PlayerController>();
+    List<PlayerController> _playersInTrigger = new List<PlayerController>();
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _scaleOriginVisual = _visual.localScale;
     }
 
 
@@ -62,6 +66,7 @@ public class EnemyController : Unit
         {
             direction.Normalize();
             _rb.velocity = direction * _data.MoveSpeed;
+            _visual.localScale = new Vector2(_scaleOriginVisual.x * Math.Sign(direction.x), _scaleOriginVisual.y);
         }
     }
 

@@ -16,6 +16,7 @@ MonoBehaviour:
   _moveSpeed: 4
   _weapons:
   - {fileID: 11400000, guid: 7fc9e32731c831e46ba0de5e74790c60, type: 2}
+  - {fileID: 11400000, guid: f81b275a70c64e84e9b4afe313bc67f0, type: 2}
   _upgrades:
   - {fileID: 11400000, guid: 1436b540ef0e07049a99ab4faec6b022, type: 2}
   - {fileID: 11400000, guid: 5329946bab0e7c24a9c269d6dee94120, type: 2}

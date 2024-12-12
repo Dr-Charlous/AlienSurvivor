@@ -14,6 +14,8 @@ public class PlayerController : Unit
     [SerializeField] LevelUpData _levelUpData;
 
     [SerializeField] LifeBar _lifeBar;
+    [SerializeField] Transform _playerVisual;
+    [SerializeField] Animator _playerAnimator;
 
     public Action OnDeath { get; set; }
     public Action<int, int, int> OnXP { get; set; }
@@ -35,6 +37,7 @@ public class PlayerController : Unit
     Rigidbody2D _rb;
     Vector2 _inputs;
     Vector2 _lastDirection = Vector2.right;
+    Vector2 _originalScale = Vector2.zero;
     float _lastDirectionX = 1;
     List<WeaponBase> _weapons = new List<WeaponBase>();
 
@@ -44,6 +47,7 @@ public class PlayerController : Unit
 
         UpgradesAvailable = new List<UpgradeData>();
         UpgradesAvailable.AddRange(_playerData.Upgrades);
+        _originalScale = _playerVisual.localScale;
     }
 
     void Start()
@@ -113,10 +117,14 @@ public class PlayerController : Unit
 
             if (Mathf.Abs(_lastDirection.x) > 0.1f)
                 _lastDirectionX = _inputs.x;
+
+            _playerVisual.localScale = new Vector3(_originalScale.x * Math.Sign(_lastDirectionX), _originalScale.y);
+            _playerAnimator.SetBool("Moving", true);
         }
         else
         {
             _rb.velocity = new Vector2();
+            _playerAnimator.SetBool("Moving", false);
         }
     }
 

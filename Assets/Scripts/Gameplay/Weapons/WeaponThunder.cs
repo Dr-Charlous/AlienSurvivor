@@ -29,8 +29,8 @@ namespace Gameplay.Weapons
 
             GameObject go = GameObject.Instantiate(_prefab, enemy.transform.position, Quaternion.identity);
 
+            go.GetComponent<Bullet>().ThunderMark();
             go.GetComponent<Bullet>().Initialize(new Vector3(),GetDamage(),0);
-
         }
     }
 }

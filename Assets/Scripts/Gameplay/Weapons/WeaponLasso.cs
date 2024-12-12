@@ -27,9 +27,10 @@ namespace Gameplay.Weapons
 
             Vector2 position = (Vector2)player.transform.position + Vector2.right * player.DirectionX * 2;
 
-            GameObject go = GameObject.Instantiate(_prefab, position, Quaternion.identity,player.transform);
+            GameObject go = GameObject.Instantiate(_prefab, position, Quaternion.identity, player.transform);
 
-            go.GetComponent<Bullet>().Initialize(new Vector3(),GetDamage(),0);
+            go.transform.localScale = new Vector2(go.transform.localScale.x * Mathf.Sign(player.DirectionX), go.transform.localScale.y);
+            go.GetComponent<Bullet>().Initialize(new Vector3(), GetDamage(), 0);
 
         }
     }

@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -10,12 +11,18 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] int _team;
     [SerializeField] float _timeToLive = 10.0f;
+    [SerializeField] float _timeTouchedExplode = 0.0f;
+    [SerializeField] Collider2D _collider;
+    [Header("Sounds")]
+    [SerializeField] AudioClip _clip;
+    [SerializeField] int _sourceNumber;
+    [SerializeField] GameObject _ThunderEffectPrefab;
 
     float _speed = 10;
     float _damage = 5;
     Vector3 _direction;
 
-    public void Initialize(Vector3 direction , float damage , float speed )
+    public void Initialize(Vector3 direction, float damage, float speed)
     {
         _direction = direction;
         _speed = speed;
@@ -39,13 +46,26 @@ public class Bullet : MonoBehaviour
 
         if (other == null)
         {
-            GameObject.Destroy(gameObject);
+            SoundsManager.Instance.PlaySound(_clip, _sourceNumber);
+            GameObject.Destroy(gameObject, _timeTouchedExplode);
+            _collider.enabled = false;
         }
         else if (other.Team != _team)
         {
-            GameObject.Destroy(gameObject);
+            SoundsManager.Instance.PlaySound(_clip, _sourceNumber);
+            GameObject.Destroy(gameObject, _timeTouchedExplode);
+            _collider.enabled = false;
 
             other.Hit(_damage);
         }
+    }
+
+    public void ThunderMark()
+    {
+        if (_ThunderEffectPrefab == null)
+            return;
+
+        Instantiate(_ThunderEffectPrefab, transform.position, Quaternion.identity);
+        _ThunderEffectPrefab = null;
     }
 }

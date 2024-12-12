@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: 088ea8bcc10506d408bff295a3f2de03
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tete
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 259
+        height: 242
+      alignment: 9
+      pivot: {x: 0.6335218, y: 0.04843165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e24feb0bb44144c84d0535ddde7b67
+      internalID: 1404735028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: torse
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 401
+        width: 156
+        height: 159
+      alignment: 9
+      pivot: {x: 0.5709375, y: 0.06500474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85ac06b7f1c59042a2b3b8f3c9a1126
+      internalID: -1646110112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epaule_G
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 472
+        width: 62
+        height: 71
+      alignment: 9
+      pivot: {x: 0.790043, y: 0.8312086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7e09fae77b5e34abbf18e0eaaa6b34
+      internalID: -116869717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epaule_D
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 478
+        width: 62
+        height: 71
+      alignment: 9
+      pivot: {x: 0.25457862, y: 0.81172633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af6c275f6f5bbe4891d6ee2f275f5a6
+      internalID: -443708432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ventre
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 169
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a532f5089f9d9f4390ca4efc30a7f22
+      internalID: 2124464892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bassin
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 193
+        width: 149
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c40b3307e865f341a6de2e825bc1631
+      internalID: -1675650496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bras_G
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 252
+        width: 127
+        height: 149
+      alignment: 9
+      pivot: {x: 0.8812203, y: 0.9084868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66318a0397643b9448a0d4c769af833f
+      internalID: 1385172405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bras_D
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 241
+        width: 98
+        height: 167
+      alignment: 9
+      pivot: {x: 0.20358151, y: 0.9058739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d1ed985903b064ea48fadf64ce0ead
+      internalID: -1104533024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HJambe_G
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 67
+        height: 95
+      alignment: 9
+      pivot: {x: 0.4380617, y: 0.89314455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da7f46e5314286498410eb74aec1233
+      internalID: 1817808679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BJambe_G
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 6
+        width: 34
+        height: 83
+      alignment: 9
+      pivot: {x: 0.6220546, y: 0.88332033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5f4d2e278dd5f478778ec9c34f18e8
+      internalID: 104090956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pied_G
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 16
+        width: 112
+        height: 63
+      alignment: 9
+      pivot: {x: 0.35179085, y: 0.7415264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b9f8360345a9c499311de8e7782029
+      internalID: -668949415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HJambe_D
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 8
+        width: 67
+        height: 95
+      alignment: 9
+      pivot: {x: 0.43806162, y: 0.9222662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff97042dec2fe3b48aac84602a9b4625
+      internalID: 102496991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BJambe_D
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 14
+        width: 34
+        height: 83
+      alignment: 9
+      pivot: {x: 0.62205416, y: 0.93331844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07798b3a30a54274f84b8b211db14e94
+      internalID: -326230039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pied_D
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 21
+        width: 112
+        height: 63
+      alignment: 9
+      pivot: {x: 0.35179085, y: 0.80739665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4292520e4a5bde847b42f756242d55ff
+      internalID: 1125964441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BJambe_D: -326230039
+      BJambe_G: 104090956
+      Bassin: -1675650496
+      HJambe_D: 102496991
+      HJambe_G: 1817808679
+      Pied_D: 1125964441
+      bras_D: -1104533024
+      bras_G: 1385172405
+      epaule_D: -443708432
+      epaule_G: -116869717
+      pied_G: -668949415
+      tete: 1404735028
+      torse: -1646110112
+      ventre: 2124464892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
